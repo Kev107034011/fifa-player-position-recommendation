@@ -7,5 +7,9 @@
 All data comes from FIFA 22 complete player dataset:  
 https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset/code
 
-    
+# 整體分為兩大步驟進行
+1. 以球員現有能力資訊與其各隊常鎮守之守備位置作基底，建構預測模型以萃取各隊伍教練之經驗，找出各球員最適合的守備位置
+2. 連結選定目標之限制式鎖定搜索目標空間，如：成本考量、缺乏球員類型，再透過 Grid Search 從該目標空間中，選出球員配置的最佳決策
+
+
 
