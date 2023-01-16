@@ -26,7 +26,10 @@ https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset/
 ![image](https://user-images.githubusercontent.com/77613396/212627811-831ea002-e2df-41a5-9852-f74afce1d7ad.png)
 
 ## 個案研究
-以英超曼聯俱樂部球隊為例，取該球隊所有前鋒球員之薪資總合作為球隊更新前鋒位置之整體預算，再以本研究的資料集內前鋒數據與成本考量做對球隊來說合理化的分配。
+>以英超曼聯俱樂部球隊為例，取該球隊所有前鋒球員之薪資總合作為球隊更新前鋒位置之整體預算，再以本研究的資料集內前鋒數據與成本考量做對球隊來說合理化的分配。
+
+![image](https://user-images.githubusercontent.com/77613396/212628835-0b3e5cf9-0cee-4edf-8c4b-2cfc65951f36.png)
+
 
 
 
