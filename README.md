@@ -38,7 +38,7 @@ https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset/
 - 球員皆無傷病問題
 
 若決策者基於現實考量，如球員解約金、無轉會之可能......等等導致有所限制，
-將可從本專案 Grid Search 部分給予限制以達成。
+將可從本專案 Grid Search 部分，對目標空間給予限制式以達成。
 
 
 
