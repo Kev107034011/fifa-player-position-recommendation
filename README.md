@@ -14,8 +14,7 @@ https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset/
 ## 定義問題屬性為多標籤分類問題 (Multi-label Classification)
 - 單一球員於球隊中可能被部屬於多種位置
 - 各隊教練依據經驗與球員各項能力素質評比，選擇適合之位置
-
-## 使用 ML-KNN 去建構預測模型，因其貝氏推論過程有解釋力強與存在決策者可彈性調整之空間。
+- 故使用 ML-KNN 去建構預測模型，因其貝氏推論過程有解釋力強與存在決策者可彈性調整之空間。
 
 
 
