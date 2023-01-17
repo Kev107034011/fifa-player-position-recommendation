@@ -10,10 +10,9 @@ https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset/
 ## 整體分為兩大步驟進行
 ### 1. 以球員現有能力資訊與其各隊常鎮守之守備位置作基底，建構 ML-KNN 預測模型並透過 Tree-Structured Parzen Estimator(TPE) 優化其超參數，以此流程萃取各隊伍教練之經驗，找出各球員最適合的守備位置。
 - 詳細程式碼可參考 
-- 程式碼中使用之套件 from skmultilearn.adapt import MLkNN 因版本太舊，需要對原始碼進行更動才可順利運行。
-將 mlknn.py 原始碼中的第 165 行手動改成 
-self.knn_ = NearestNeighbors(n_neighbors=self.k).fit(X)
-後即可正常運行。
+- 程式碼中使用之套件 from skmultilearn.adapt import MLkNN 因版本太舊，需要將套件檔案中的 mlknn.py 原始碼的第 165 行手動改成 
+self.knn_ = NearestNeighbors(n_neighbors=self.k).fit(X)，才可順利運行。
+
 
 ### 2. 連結選定目標之限制式鎖定搜索空間，如：成本考量、缺乏球員類型，再透過 Grid Search 從該目標空間中，選出球員配置的最佳決策。
 
