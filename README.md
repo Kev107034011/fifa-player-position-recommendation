@@ -34,7 +34,7 @@ self.knn_ = NearestNeighbors(n_neighbors=self.k).fit(X)，才可順利運行。
 
 ## 個案研究
 >在球員適合守備位置之預測部分，將本專案使用之方法與常用演算法(XGBoost、RandomForest、NaiveBayes 進行 Bemchmark 後，發現有顯著提升效益。
-
+![image](https://user-images.githubusercontent.com/77613396/212937876-af263df3-4d5a-420f-8e5f-05f815a59a64.png)
 
 >以英超曼聯俱樂部球隊為例，取該球隊所有前鋒球員之薪資總合作為球隊更新前鋒位置之整體預算，再以本研究的資料集內前鋒數據與成本考量做對球隊來說合理化的分配。
 
